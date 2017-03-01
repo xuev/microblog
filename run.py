@@ -4,14 +4,13 @@
 """
 @Author:  xuev (xuewei918@gmail.com)
 @Project: microblog
-@File: __init__.py
+@File: run.py
 @Version: 0.01
 @License: MIT Licence
-@Create Time: 2017/3/1 下午6:59
+@Create Time: 2017/3/1 下午7:07
 @Description: 
 """
 
-from flask import Flask
+from app import app
 
-app = Flask(__name__)
-from app import views
+app.run(debug=True)
