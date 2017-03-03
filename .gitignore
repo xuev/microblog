@@ -90,3 +90,6 @@ ENV/
 
 # IDE_idea
 .idea/
+
+# tmp
+tmp/
